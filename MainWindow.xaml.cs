@@ -23,14 +23,10 @@ namespace DataBind
 
             InitializeComponent();
             DataContext = this;
-            double canvasWidth = Chartgrid.ActualWidth;
-            double canvasHeight = Chartgrid.ActualHeight;
-            double scalefactorx = canvasWidth / 1920;
-            double scalefactory = canvasHeight / 1080;
+            
 
-
-            OriginX = 501.5*scalefactorx;
-           OriginY = 318*scalefactory;
+            OriginX = 501.5;
+           OriginY = 318;
 
             
             
